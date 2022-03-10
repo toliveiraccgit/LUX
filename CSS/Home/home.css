@@ -735,6 +735,13 @@
         font-size: 16px;
 
         color: var(--grafite);
+
+        transition: all .15s ease-in-out;
+    }
+    .item__item___lista-rodape:hover{
+        color: var(--primary-blue);
+
+        transition: all .15s ease-in-out;
     }
     .lista__navegacao___rodape-redes{
         display: flex;
