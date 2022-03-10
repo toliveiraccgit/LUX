@@ -1,0 +1,75 @@
+:root{
+    --inter: 'Inter', sans-serif;
+    
+    --bold: 700;
+    --semi-bold: 600;
+    --medium: 500;
+    --regular: 400;
+
+    --primary-dark: #00BD62;
+    --primary-pure:  #00E577;
+    --primary-medium: #E5FFF3;
+    --primary-light: #E5F8EF;;
+    --primary-pastel: #EDFFF7;
+    
+    --secundary-pure: #000000;
+    
+    --low-pure: #131416;
+    --low-light: #A3A3A3;
+    --low-medium: #666666;
+    --low-dark: #292A2C;
+
+    --high-pure: #FDFEFF;
+    --high-low: #E3E5E6;
+    --high-medium: #DBDDDE;
+    --high-dark: #BBBBBB;
+    
+
+    --tittle-light: #292A2C;
+    --tittle-smaller-primary: #A3A3A3;
+
+    --subheads: #8A94A6;
+    --paragraphs: #A9AFB9;
+    --extra: #C8C8C8;
+
+
+    --line-xs:  115.2%;
+    --line-sm:  120%;
+    --line-md:  133%;
+    --line-lg:  150%;
+    --line-xl:  170%;
+    --line-xxl: 200%;
+    
+    --font-xs: 24px;
+    --font-sm: 32px;
+    --font-md: 48px;
+    --font-lg: 72px;
+    --font-xl: 96px;
+    --font-xxl: 208px;
+
+    --border-circular: 50%
+
+
+}
+body a{
+    color: #FFFFFF;
+}
+body{
+    
+    scroll-behavior: smooth;
+}
+
+#body{
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.destaque__green{
+    color: #00BD62;
+}
+#destaque-paginacao{
+    color: var(--primary-dark);
+}
