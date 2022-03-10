@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/Home/home.css">
+        <link rel="stylesheet" href="./CSS/animacaoScroll.css">
+        <link href="./CSS/base.css" rel="stylesheet">
+        <link href="./CSS/reset.css" rel="stylesheet">
+        <link href="./CSS/normalize.css" rel="stylesheet">
+        <style type="text/css" media="screen, print">
+            @font-face {
+            font-family: 'Graphik-Black';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/GraphikBlack.otf');
+            }
+
+            @font-face {
+            font-family: 'Graphik-Bold';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/GraphikBold.otf');
+            }
+
+            @font-face {
+            font-family: 'Graphik-Light';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/GraphikLight.otf');
+            }
+
+            @font-face {
+            font-family: 'Graphik-Medium';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/GraphikMedium.otf');
+            }
+
+            @font-face {
+            font-family: 'Graphik-Regular';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/GraphikRegular.otf');
+            }
+
+            @font-face {
+            font-family: 'Graphik-SemiBold';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/GraphikSemibold.otf');
+            }
+
+            @font-face {
+            font-family: 'Graphik-Super';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/GraphikSuper.otf');
+            }
+
+            @font-face {
+            font-family: 'Graphik-Thin';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/GraphikThin.otf');
+            }
+            
+            
+        </style>
+        <title>LUX</title>
+        <link rel="shortcut icon" href="./Assets/Logo/logo-favicon.svg" type="image/x-icon"/>
+    </head>
+
+    <body id="body">
+
+        <header class="cabecalho">
+
+            <img src="./Assets/Logo/logo-lux.svg" alt="LUX" class="imagem__logo___lux">
+
+            <section class="secao__botoes___cabecalho">
+
+                <a class="item__secao___botoes-cabecalho">About Us</a>
+
+                <a class="botao__secao___cabecalho">Get started</a>
+
+            </section>
+
+        </header>
+
+        <main class="conteudo">
+
+            <section class="secao__banner">
+                <section class="secao__info___banner">
+
+                    <h1 class="titulo__banner">The all-in-one community platform for creators & brands</h1>
+                    <p class="descricao__banner">Bring together engaging discussions, members, live streams, chat, events, and memberships — all in one place, all under your own brand.</p>
+
+                </section>
+                <section class="secao__imagens___banner">
+
+                    <img src="./Assets/Logo-Redes/logo-twitch-maior.svg" alt="Twitch" class="imagem__banner__twitch">
+
+                    <img src="./Assets/Imagens/imagem-banner.png" alt="Imagem Banner" class="imagem__banner">
+
+                </section>
+            </section>
+
+            <section class="secao__plataformas anime-top">
+
+                <h2 class="titulo__plataformas">Plataform</h2>
+
+                <div class="container__imagens___plataformas">
+
+                    <img src="./Assets/Logo-Redes/logo-facebook.svg" alt="Facebook" class="imagem__plataformas">
+
+                    <img src="./Assets/Logo-Redes/logo-surface.svg" alt="Facebook" class="imagem__plataformas">
+
+                    <img src="./Assets/Logo-Redes/logo-twitch-menor.svg" alt="Facebook" class="imagem__plataformas">
+                </div>
+
+            </section>
+
+            <section class="secao__tabs">
+
+                <div class="cabecalho__secao___tabs anime-top">
+
+                    <button class="tablinks tabs" id="defaultOpen" onclick="openTab(event, 'create'), tabSaude()">Create</button>
+
+                    <button class="tablinks tabs" onclick="openTab(event, 'engage'), tabSeguranca()">Engage</button>   
+
+                    <button class="tablinks tabs" onclick="openTab(event, 'monetize'), tabRelatorios()">Monetize</button>
+
+                    <button class="tablinks tabs" onclick="openTab(event, 'about'), tabRelatorios()">About Us</button>
+
+                </div>
+
+                <section class="secao__cards___tabs tabcontent anime-top" id="create">
+
+                    <section class="container__cards___tabs anime-top">
+
+                        <div class="container__imagem___card-tab container___card-tab-1">
+
+                            <img src="./Assets/Imagens/imagem-tab-1.png" alt="Imagem" class="imagem__card___tab">
+
+                        </div>
+
+                        <div class="info__card-tab">
+
+                            <span class="numero__card">01</span>
+
+                            <h3 class="titulo__card">Perfect solution for your website</h3>
+
+                            <p class="descricao__card">Develop a website by finding a product identity that has value and branding to become a characteristic of a company. We will also facilitate the business marketing of these products with our SEO experts so that they become a ready-to-use website and help sell a product from the company</p>
+
+                        </div>  
+
+                    </section>
+
+                    <section class="container__cards___tabs anime-top">
+
+                        <div class="info__card-tab">
+
+                            <span class="numero__card" id="numero-card-2">02</span>
+
+                            <h3 class="titulo__card">Create your masterpiece web design</h3>
+
+                            <p class="descricao__card">Creating a very beautiful website design in accordance with the fundamental user experience which is examined more deeply by the UX Designers that we have. And make good visuals so that clients are satisfied and easy when viewing the website. First impressions are our tricks to attract a customer who has seen the website that we are going to create</p>
+
+                            <a href="#" class="botao__card___tab">Active Button</a>
+                        </div> 
+
+                        <div class="container__imagem___card-tab">
+
+                            <img src="./Assets/Imagens/imagem-tab-2.png" alt="Imagem" class="imagem__card___tab">
+
+                        </div>
+ 
+                    </section>
+
+                </section>
+
+                <section class="secao__cards___tabs tabcontent anime-top" id="engage">
+
+                    <section class="container__cards___tabs anime-top">
+
+                        <div class="container__imagem___card-tab container___card-tab-1">
+
+                            <img src="./Assets/Imagens/imagem-tab-1.png" alt="Imagem" class="imagem__card___tab">
+
+                        </div>
+
+                        <div class="info__card-tab">
+
+                            <span class="numero__card">01</span>
+
+                            <h3 class="titulo__card">Perfect solution for your website</h3>
+
+                            <p class="descricao__card">Develop a website by finding a product identity that has value and branding to become a characteristic of a company. We will also facilitate the business marketing of these products with our SEO experts so that they become a ready-to-use website and help sell a product from the company</p>
+
+                        </div>  
+
+                    </section>
+
+                    <section class="container__cards___tabs anime-top">
+
+                        <div class="info__card-tab">
+
+                            <span class="numero__card" id="numero-card-2">02</span>
+
+                            <h3 class="titulo__card">Create your masterpiece web design</h3>
+
+                            <p class="descricao__card">Creating a very beautiful website design in accordance with the fundamental user experience which is examined more deeply by the UX Designers that we have. And make good visuals so that clients are satisfied and easy when viewing the website. First impressions are our tricks to attract a customer who has seen the website that we are going to create</p>
+
+                            <a href="#" class="botao__card___tab">Active Button</a>
+                        </div> 
+
+                        <div class="container__imagem___card-tab">
+
+                            <img src="./Assets/Imagens/imagem-tab-2.png" alt="Imagem" class="imagem__card___tab">
+
+                        </div>
+ 
+                    </section>
+
+                </section>
+
+                <section class="secao__cards___tabs tabcontent anime-top" id="monetize">
+
+                    <section class="container__cards___tabs anime-top">
+
+                        <div class="container__imagem___card-tab container___card-tab-1">
+
+                            <img src="./Assets/Imagens/imagem-tab-1.png" alt="Imagem" class="imagem__card___tab">
+
+                        </div>
+
+                        <div class="info__card-tab">
+
+                            <span class="numero__card">01</span>
+
+                            <h3 class="titulo__card">Perfect solution for your website</h3>
+
+                            <p class="descricao__card">Develop a website by finding a product identity that has value and branding to become a characteristic of a company. We will also facilitate the business marketing of these products with our SEO experts so that they become a ready-to-use website and help sell a product from the company</p>
+
+                        </div>  
+
+                    </section>
+
+                    <section class="container__cards___tabs anime-top">
+
+                        <div class="info__card-tab">
+
+                            <span class="numero__card" id="numero-card-2">02</span>
+
+                            <h3 class="titulo__card">Create your masterpiece web design</h3>
+
+                            <p class="descricao__card">Creating a very beautiful website design in accordance with the fundamental user experience which is examined more deeply by the UX Designers that we have. And make good visuals so that clients are satisfied and easy when viewing the website. First impressions are our tricks to attract a customer who has seen the website that we are going to create</p>
+
+                            <a href="#" class="botao__card___tab">Active Button</a>
+                        </div> 
+
+                        <div class="container__imagem___card-tab">
+
+                            <img src="./Assets/Imagens/imagem-tab-2.png" alt="Imagem" class="imagem__card___tab">
+
+                        </div>
+ 
+                    </section>
+
+                </section>
+
+                <section class="secao__cards___tabs tabcontent" id="about">
+
+                    <section class="container__cards___tabs anime-top">
+
+                        <div class="container__imagem___card-tab container___card-tab-1">
+
+                            <img src="./Assets/Imagens/imagem-tab-1.png" alt="Imagem" class="imagem__card___tab">
+
+                        </div>
+
+                        <div class="info__card-tab">
+
+                            <span class="numero__card">01</span>
+
+                            <h3 class="titulo__card">Perfect solution for your website</h3>
+
+                            <p class="descricao__card">Develop a website by finding a product identity that has value and branding to become a characteristic of a company. We will also facilitate the business marketing of these products with our SEO experts so that they become a ready-to-use website and help sell a product from the company</p>
+
+                        </div>  
+
+                    </section>
+
+                    <section class="container__cards___tabs anime-top">
+
+                        <div class="info__card-tab">
+
+                            <span class="numero__card" id="numero-card-2">02</span>
+
+                            <h3 class="titulo__card">Create your masterpiece web design</h3>
+
+                            <p class="descricao__card">Creating a very beautiful website design in accordance with the fundamental user experience which is examined more deeply by the UX Designers that we have. And make good visuals so that clients are satisfied and easy when viewing the website. First impressions are our tricks to attract a customer who has seen the website that we are going to create</p>
+
+                            <a href="#" class="botao__card___tab">Active Button</a>
+                        </div> 
+
+                        <div class="container__imagem___card-tab">
+
+                            <img src="./Assets/Imagens/imagem-tab-2.png" alt="Imagem" class="imagem__card___tab">
+
+                        </div>
+ 
+                    </section>
+
+                </section>
+
+            </section>
+
+            <section class="secao__time">
+
+                <div class="container__cabecalho___time anime-top">
+
+                    <h4 class="titulo__cabecalho___time">Our Works From Our Heart</h4>
+                    <p class="descricao__cabecalho___time">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+
+                </div>
+
+                <section class="secao__imagem___time anime-top">
+
+                    <a href="#" class="container__imagem___time">
+
+                        <img src="./Assets/Imagens/imagem-time-1.png" alt="Imagem Time" class="imagem__time">
+
+                        <div class="container__info___time">
+
+                            <div class="container__cabecalho___info">
+                                <h5 class="titulo__info___time">Suspendisse sed arcu fringilla sagittis.</h5>
+                                <span class="subtitulo__info___time">Aliquet non in vitae sed.</span>
+                            </div>
+
+                            <p class="descricao__info___time">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis fermentum mi sit etiam. Luctus ac elit vitae ac. Pretium scelerisque condimentum morbi varius ante sit pharetra. Imperdiet ipsum odio placerat nisi.</p>
+
+
+                            <span href="#" class="botao__ler___mais-time">Read More</span>
+                        </div>
+
+                    </a>
+
+                    <a href="#" class="container__imagem___time">
+
+                        <img src="./Assets/Imagens/imagem-time-2.png" alt="Imagem Time" class="imagem__time">
+
+                        <div class="container__info___time">
+
+                            <div class="container__cabecalho___info">
+                                <h5 class="titulo__info___time">Suspendisse sed arcu fringilla sagittis.</h5>
+                                <span class="subtitulo__info___time">Aliquet non in vitae sed.</span>
+                            </div>
+
+                            <p class="descricao__info___time">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis fermentum mi sit etiam. Luctus ac elit vitae ac. Pretium scelerisque condimentum morbi varius ante sit pharetra. Imperdiet ipsum odio placerat nisi.</p>
+
+
+                            <span href="#" class="botao__ler___mais-time">Read More</span>
+                        </div>
+
+                    </a>
+
+                    <a href="#" class="container__imagem___time">
+
+                        <img src="./Assets/Imagens/imagem-time-3.png" alt="Imagem Time" class="imagem__time">
+
+                        <div class="container__info___time">
+
+                            <div class="container__cabecalho___info">
+                                <h5 class="titulo__info___time">Suspendisse sed arcu fringilla sagittis.</h5>
+                                <span class="subtitulo__info___time">Aliquet non in vitae sed.</span>
+                            </div>
+
+                            <p class="descricao__info___time">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis fermentum mi sit etiam. Luctus ac elit vitae ac. Pretium scelerisque condimentum morbi varius ante sit pharetra. Imperdiet ipsum odio placerat nisi.</p>
+
+
+                            <span href="#" class="botao__ler___mais-time">Read More</span>
+                        </div>
+
+                    </a>
+
+                    <a href="#" class="container__imagem___time">
+
+                        <img src="./Assets/Imagens/imagem-time-4.png" alt="Imagem Time" class="imagem__time">
+
+                        <div class="container__info___time">
+
+                            <div class="container__cabecalho___info">
+                                <h5 class="titulo__info___time">Suspendisse sed arcu fringilla sagittis.</h5>
+                                <span class="subtitulo__info___time">Aliquet non in vitae sed.</span>
+                            </div>
+
+                            <p class="descricao__info___time">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis fermentum mi sit etiam. Luctus ac elit vitae ac. Pretium scelerisque condimentum morbi varius ante sit pharetra. Imperdiet ipsum odio placerat nisi.</p>
+
+
+                            <span href="#" class="botao__ler___mais-time">Read More</span>
+                        </div>
+
+                    </a>
+
+                    <a href="#" class="container__imagem___time">
+
+                        <img src="./Assets/Imagens/imagem-time-5.png" alt="Imagem Time" class="imagem__time">
+
+                        <div class="container__info___time">
+
+                            <div class="container__cabecalho___info">
+                                <h5 class="titulo__info___time">Suspendisse sed arcu fringilla sagittis.</h5>
+                                <span class="subtitulo__info___time">Aliquet non in vitae sed.</span>
+                            </div>
+
+                            <p class="descricao__info___time">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis fermentum mi sit etiam. Luctus ac elit vitae ac. Pretium scelerisque condimentum morbi varius ante sit pharetra. Imperdiet ipsum odio placerat nisi.</p>
+
+
+                            <span href="#" class="botao__ler___mais-time">Read More</span>
+                        </div>
+
+                    </a>
+
+                    <a href="#" class="container__imagem___time">
+
+                        <img src="./Assets/Imagens/imagem-time-2.png" alt="Imagem Time" class="imagem__time">
+
+                        <div class="container__info___time">
+
+                            <div class="container__cabecalho___info">
+                                <h5 class="titulo__info___time">Suspendisse sed arcu fringilla sagittis.</h5>
+                                <span class="subtitulo__info___time">Aliquet non in vitae sed.</span>
+                            </div>
+
+                            <p class="descricao__info___time">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis fermentum mi sit etiam. Luctus ac elit vitae ac. Pretium scelerisque condimentum morbi varius ante sit pharetra. Imperdiet ipsum odio placerat nisi.</p>
+
+
+                            <span href="#" class="botao__ler___mais-time">Read More</span>
+                        </div>
+
+                    </a>
+
+                </section>
+
+            </section>
+
+            <section class="secao__video">
+
+                <section class="container__cabecalho___video anime-top">
+
+                    <h7 class="titulo__cabecalho___video">Create Your Next Design with our Design System</h7>
+                    <p class="descricao__cabecalho___video">What a brand new resource, You can try our resource and explore how it works</p>
+
+                    <a href="#" class="botao__cabecalho___video">Active Button</a>
+
+                </section>
+
+                <section class="container__video anime-top">
+
+                    <img src="./Assets/Imagens/imagem-video.png" alt="Video" class="imagem__video">
+
+                </section>
+
+            </section>
+
+            <section class="secao__depoimentos anime-top">
+
+                    <button class="botao__carrousel-depoimentos botao__anterior___caroussel-depoimentos" data-anterior-depoimentos>
+
+                        <svg class="vetor-esquerda___caroussel-depoimentos" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="vetor-esquerda___caroussel-depoimentos" fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 37.3332C8.87486 37.3332 0.666748 29.1251 0.666748 18.9998C0.666748 8.87462 8.87486 0.666504 19.0001 0.666504C29.1253 0.666504 37.3334 8.87462 37.3334 18.9998C37.3334 29.1251 29.1253 37.3332 19.0001 37.3332ZM19.0001 33.9998C27.2844 33.9998 34.0001 27.2841 34.0001 18.9998C34.0001 10.7156 27.2844 3.99984 19.0001 3.99984C10.7158 3.99984 4.00008 10.7156 4.00008 18.9998C4.00008 27.2841 10.7158 33.9998 19.0001 33.9998ZM27.3334 18.3332C27.3334 17.7809 26.8857 17.3332 26.3334 17.3332H18.7713C17.8804 17.3332 17.4342 16.256 18.0642 15.6261L19.4715 14.2188C19.862 13.8283 19.862 13.1951 19.4715 12.8046L18.5287 11.8618C18.1382 11.4712 17.505 11.4712 17.1145 11.8618L10.6835 18.2927C10.293 18.6833 10.293 19.3164 10.6835 19.7069L17.1145 26.1379C17.505 26.5284 18.1382 26.5284 18.5287 26.1379L19.4715 25.1951C19.862 24.8046 19.862 24.1714 19.4715 23.7809L18.0642 22.3736C17.4342 21.7436 17.8804 20.6665 18.7713 20.6665H26.3334C26.8857 20.6665 27.3334 20.2188 27.3334 19.6665V18.3332Z" fill="#333333"/>
+                        </svg>
+
+                    </button>
+
+                    <div class="container__carousel-depoimentos">
+
+                        <ul class="lista-depoimentos" data-lista-depoimentos>
+                            
+                            <li class="item__lista___depoimentos">   
+                               
+                                <img src="./Assets/Imagens/imagem-depoimentos.png" alt="Imagem Depoimento" class="imagem__depoimento">
+
+                                <section class="secao__info___depoimentos">
+
+                                    <h8 class="titulo__info___depoimentos">Perfect Works and Very Recommended!</h8>
+                                    <p class="descricao__info___depoimentos">I am very happy with the services provided, it is very helpful, starting from the insight that the company gave from the start that I did not understand what it was so I got knowledge and made my website look better</p>
+
+                                    <span class="nome__depoimento">Clay Johnson</span>
+
+                                    <span class="cargo__depoimento">Director at Wax Inc</span>
+                                </section>
+
+                            </li>
+
+                            <li class="item__lista___depoimentos">   
+                               
+                                <img src="./Assets/Imagens/imagem-depoimentos.png" alt="Imagem Depoimento" class="imagem__depoimento">
+
+                                <section class="secao__info___depoimentos">
+
+                                    <h8 class="titulo__info___depoimentos">Perfect Works and Very Recommended!</h8>
+                                    <p class="descricao__info___depoimentos">I am very happy with the services provided, it is very helpful, starting from the insight that the company gave from the start that I did not understand what it was so I got knowledge and made my website look better</p>
+
+                                    <span class="nome__depoimento">Clay Johnson</span>
+
+                                    <span class="cargo__depoimento">Director at Wax Inc</span>
+                                </section>
+
+                            </li>
+
+                            <li class="item__lista___depoimentos">   
+                               
+                                <img src="./Assets/Imagens/imagem-depoimentos.png" alt="Imagem Depoimento" class="imagem__depoimento">
+
+                                <section class="secao__info___depoimentos">
+
+                                    <h8 class="titulo__info___depoimentos">Perfect Works and Very Recommended!</h8>
+                                    <p class="descricao__info___depoimentos">I am very happy with the services provided, it is very helpful, starting from the insight that the company gave from the start that I did not understand what it was so I got knowledge and made my website look better</p>
+
+                                    <span class="nome__depoimento">Clay Johnson</span>
+
+                                    <span class="cargo__depoimento">Director at Wax Inc</span>
+                                </section>
+
+                            </li>
+                        
+                        </ul>
+                    </div>
+
+                    <button class="botao__carrousel-depoimentos botao__proximo___caroussel-depoimentos" data-proximo-depoimentos>
+
+                        <svg class="botao__proximo___caroussel-depoimentos" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="botao__proximo___caroussel-depoimentos" fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 37.3332C8.87486 37.3332 0.666748 29.1251 0.666748 18.9998C0.666748 8.87462 8.87486 0.666504 19.0001 0.666504C29.1253 0.666504 37.3334 8.87462 37.3334 18.9998C37.3334 29.1251 29.1253 37.3332 19.0001 37.3332ZM19.0001 33.9998C27.2844 33.9998 34.0001 27.2841 34.0001 18.9998C34.0001 10.7156 27.2844 3.99984 19.0001 3.99984C10.7158 3.99984 4.00008 10.7156 4.00008 18.9998C4.00008 27.2841 10.7158 33.9998 19.0001 33.9998ZM10.6667 19.6665C10.6667 20.2188 11.1145 20.6665 11.6667 20.6665H19.2288C20.1197 20.6665 20.5659 21.7436 19.936 22.3736L18.5287 23.7809C18.1382 24.1714 18.1382 24.8046 18.5287 25.1951L19.4715 26.1379C19.862 26.5284 20.4952 26.5284 20.8857 26.1379L27.3167 19.7069C27.7072 19.3164 27.7072 18.6833 27.3167 18.2927L20.8857 11.8618C20.4952 11.4712 19.862 11.4712 19.4715 11.8618L18.5287 12.8046C18.1382 13.1951 18.1382 13.8283 18.5287 14.2188L19.936 15.6261C20.5659 16.256 20.1198 17.3332 19.2288 17.3332H11.6667C11.1145 17.3332 10.6667 17.7809 10.6667 18.3332V19.6665Z" fill="#333333"/>
+                        </svg>
+
+                    </button>
+
+            </section>
+
+            <section class="banner__footer anime-top">
+
+                <h9 class="titulo__banner___footer">Crafting Magnificent Design with Us</h9>
+                <p class="descricao__banner___footer">Crafting Magnificent Design with Us</p>
+
+
+                <a href="#" class="botao__banner___footer">Active Button</a>
+            </section>
+
+        </main>
+
+        <footer class="rodape anime-top">
+
+            <section class="secao__navegacao___rodape">
+
+                <ul class="lista__navegacao___rodape">
+
+                    <li class="item__item___lista-rodape">
+                        <a class="item__item___lista-rodape" href="#">Services</a>
+                    </li>
+
+                    <li class="item__item___lista-rodape">
+                        <a class="item__item___lista-rodape" href="#">Resources</a>
+                    </li>
+
+                    <li class="item__item___lista-rodape">
+                        <a class="item__item___lista-rodape" href="#">About Us</a>
+                    </li>
+
+                </ul>
+
+                <img src="./Assets/Logo/logo-lux.svg" alt="LUX" class="logo__footer___lux">
+
+                <ul class="lista__navegacao___rodape-redes">
+
+                    <li class="item__item___lista-rodape">
+                        <a class="item__item___lista-rodape" href="#">Instagram</a>
+                    </li>
+
+                    <li class="item__item___lista-rodape">
+                        <a class="item__item___lista-rodape" href="#">Facebook</a>
+                    </li>
+
+                    <li class="item__item___lista-rodape">
+                        <a class="item__item___lista-rodape" href="#">Twitter</a>
+                    </li>
+
+                    <li class="item__item___lista-rodape">
+                        <a class="item__item___lista-rodape" href="#">LinkedIn</a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+            <section class="secao__adress">
+
+                <span class="copyright">Made Remotely By Lux. Copyright 2022</span>
+
+
+                <a href="#" class="botao__footer">
+                    Let’s talk with us
+
+                    <svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="vetor-seta-blue" fill-rule="evenodd" clip-rule="evenodd" d="M9.2692 10.8047C9.89917 10.1748 9.453 9.09763 8.5621 9.09763H0.999999C0.447714 9.09763 0 8.64991 0 8.09763V6.7643C0 6.21201 0.447715 5.7643 1 5.7643H8.5621C9.453 5.7643 9.89917 4.68716 9.2692 4.05719L7.86193 2.64992C7.4714 2.25939 7.4714 1.62623 7.86193 1.2357L8.80474 0.292893C9.19526 -0.0976314 9.82843 -0.0976308 10.219 0.292894L16.6499 6.72386C17.0404 7.11438 17.0404 7.74755 16.6499 8.13807L10.219 14.569C9.82843 14.9596 9.19526 14.9596 8.80474 14.569L7.86193 13.6262C7.4714 13.2357 7.4714 12.6025 7.86193 12.212L9.2692 10.8047Z" fill="#2D5BFF"/>
+                    </svg>
+                
+                </a>
+            </section>
+
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
+        <script>
+                // Adiciona a classe .js ao elemento HTML. Assim eu garanto que os elementos só serão escondidos caso o JavaScript esteja habilitado
+                    var root = document.documentElement;
+                    root.className += ' js';
+
+                    // Cria a função boxTop responsável por definir a distância entre o topo to elemento e a página
+                    function boxTop(idBox) {
+                        var boxOffset = $(idBox).offset().top;
+                        return boxOffset;
+                    }
+
+                    // Verifica se o documento está pronto
+                    $(document).ready(function() {
+                        
+                                // target define os elementos que serão animados. Neste 	caso todos os que possuirem a classe .anime	
+                        var $target = $('.anime-top'),
+                                
+                                // animationClass define a classe que será injetada no elemento durante o scroll. É nessa classe que	definimos como a animação irá ocorrer
+                                animationClass = 'anime-init-top',
+                                
+                                // windowHeight pega a altura total da janela do browser
+                                windowHeight = $(window).height(),
+                                
+                                // offset é definido a partir da altura da janela, menos um quarto dessa atlura. Isso vai garantir que o browser não fique com um espaço grande em branco
+                                offset = windowHeight - (windowHeight / 7);
+
+                        // animeScroll é a função responsável por adicionar a classe animationClass ao elemento da página.
+                        function animeScroll() {
+                            
+                            // documentTop vai definir a distância entre o topo da página e o scroll. O valor é atualizado sempre a função animeScroll é ativada.
+                            var documentTop = $(document).scrollTop();
+                            
+                            // target.each serve para adicionarmos a função a cada elemento que tiver a classe do target. Assim garantimos que elementos com distâncias diferentes do topo da página, animem no momento correto
+                            $target.each(function() {
+                                
+                                // o if verifica se a distância entre o topo da página e o scroll é maior que a distância do elemento - o valor fo offset
+                                if (documentTop > boxTop(this) - offset) {
+                                    
+                                    // caso seja verdadeiro, ele vai adicionar a classe que está em animationClass ao elemento
+                                    $(this).addClass(animationClass);
+                                } else {
+                                    
+                                    // caso seja falso ele vai remover a classe do elemento. Se você não quiser que a animação ocorra mais de uma vez, ou seja, quando o cliente voltar o scroll para cima os elementos continuem fixos, basta remover este else
+                                    $(this).removeClass(animationClass);
+                                }
+                            });
+                        }
+                        
+                        // dispara a função animeScroll, nesse primeiro momento ele dispara para verificar se já não existe nenhum elemento na página que esteja no campo de visão do usuário
+                        animeScroll();
+                        
+                        // com o document.scroll vamos verificar sempre que um evento de scroll ocorrer na página
+                        $(document).scroll(function() {
+                            
+                            // quando o evento de scroll ocorre disparamos novamente a função animeScroll. Com um setTimeout para evetira que ela seja disparada diversas vezes
+                            setTimeout(function() {
+                                animeScroll()
+                            }, 150);
+                        });
+                    });
+        </script>
+        <script src="./Componentes/tab.js" type="text/javascript"></script>
+        <script src="./Componentes/index.js" type="module"></script>
+    </body>
+</html>
